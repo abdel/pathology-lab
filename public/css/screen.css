@@ -1,0 +1,75 @@
+.names {
+    padding: 8px 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display:none;
+}
+
+.name {
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.name:hover {
+    background-color: #0097CF;
+    color: #fff;
+}
+
+.loading {
+    display: none;
+}
+
+.btn-group {
+    position: relative;
+    top: 20px;
+}
+
+a {
+    color: #777;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #555;
+}
+
+th.options {
+    width: 10%;
+    text-align: center;
+}
+
+td.options {
+    text-align: center;
+}
+
+td.options a {
+    padding-right: 10px;
+}
+
+.formInline {
+    width: auto; 
+    display: inline;
+}
+
+.form-group .phone {
+    display: inline; 
+}
+
+.form-group .code {
+    width: 3.75em;
+}
+
+.form-group .number {
+    width: 7em;
+}
+
+.panel-heading h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 75%;
+    padding-top: 8px;
+}
